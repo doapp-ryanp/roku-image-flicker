@@ -1,0 +1,46 @@
+<?xml version = "1.0" encoding = "utf-8" ?> 
+
+<!--********** Copyright 2016 Roku Corp.  All Rights Reserved. **********-->
+
+<component name = "ZORenderablesExample" extends = "Scene" >
+
+  <script type = "text/brightscript" >
+
+    <![CDATA[
+
+    sub init() 
+    end sub
+
+    ]]>
+
+  </script>
+
+  <children>
+		<Poster
+			id="mainBackground"
+            translation="[0, 0]"
+            uri="pkg:/images/main-background.png"
+            width="1280"
+            height="720"
+            visible="true">
+            <Label 
+		        id = "loading" 
+		        translation = "[ 0, 244 ]" 
+		        width = "1280" 
+		        height = "720" 
+		        font = "font:SmallBoldSystemFont" 
+		        text = "Loading..." 
+		        horizAlign = "center" 
+		        vertAlign = "center"
+		        visible = "true" />            
+        </Poster>
+        
+        <!-- Overhang logo -->
+        <Poster
+            translation="[79, 36]"
+            uri="pkg:/images/header-logo.png"
+            width="156"
+            height="49"
+            visible="true" />
+  </children>
+</component>

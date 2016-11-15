@@ -1,0 +1,13 @@
+title=Z-Order Renderables Example
+major_version=1
+minor_version=0
+build_version=00000
+mm_icon_focus_hd=pkg:/images/rsgde_mm_focus_hd.jpg
+mm_icon_focus_sd=pkg:/images/rde_mm_focus_sd.jpg
+subtitle=A Roku Scene Graph Development Example
+splash_screen_fhd=pkg:/images/splash-screen_fhd.png
+splash_screen_hd=pkg:/images/splash-screen_hd.png
+splash_screen_sd=pkg:/images/splash-screen_hd.png
+splash_color=#662d91
+splash_min_time=3000
+ui_resolutions="hd"
